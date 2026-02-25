@@ -36,7 +36,7 @@ Run the script
 Observe the output
 Adjust the depth value until the measurement is stable and meaningful
 3) YOLO weights
-model = YOLO("path/to/your/best.pt")\
+model = YOLO("path/to/your/best.pt")
 
 In the repository two files with weights are uploaded. For the road width estimation pipeline please use best.pt file. Another weights best_mapillary_vistas.pt are the weights to detect lane markings and crosswalks
 
