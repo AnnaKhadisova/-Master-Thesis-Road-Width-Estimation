@@ -49,6 +49,7 @@ You must:
 
 In our case:
 (504, 322)
+
 5) Camera Intrinsic Parameters
 fx, fy
 cx, cy
