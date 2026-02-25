@@ -17,12 +17,12 @@ Estimated road width
 3D point clouds are saved per frame.
 
 
-Installation:
-git clone <repository-link>
-cd Master-Thesis-Road-Width-Estimation
+__Installation:__
+__git clone <repository-link>__
+__cd Master-Thesis-Road-Width-Estimation__
 
-Run:
-python road_width_estimate.py
+__Run:__
+__python road_width_estimate.py__
 
 Before running the script, you must configure the following parameters inside road_width_estimate.py:
 1) Path to the original input video
