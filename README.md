@@ -44,7 +44,7 @@ Adjust the depth value until the measurement is stable and meaningful
 3) YOLO weights
 model = YOLO("path/to/your/best.pt")
 
-In the repository two files with weights are uploaded. For the road width estimation pipeline please use best.pt file. Another weights best_mapillary_vistas.pt are the weights to detect lane markings and crosswalks
+The weights for image segmentation step can be found at the link: https://drive.google.com/drive/folders/1g6qCICzm_CGvVxRfrcVy3APa4fSSifPI?usp=drive_link. For the road width estimation pipeline please use best.pt file. Another weights best_mapillary_vistas.pt are the weights to detect lane markings and crosswalks (ablation study).
 
 4) Output Resolution (out_w, out_h)
 This must match the resolution used by the Depth Anything model.
