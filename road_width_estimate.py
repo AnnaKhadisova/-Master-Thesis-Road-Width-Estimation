@@ -10,7 +10,7 @@ from depth_anything_3.api import DepthAnything3
 import tarfile
 import tempfile
 
-depth_m = 30  # you need to adjust it
+depth_m = 7  # you need to adjust it 30
 video_path = "/home/k64684/data_from_Marcus/Export_Ulm/extracted_ulm/export_ulm/video_ulm.mp4"
 output_csv_path = "/home/k64684/master_thesis/road_width_results.csv"
 output_ply_archive_path = "/home/k64684/master_thesis/ply_outputs.tar.gz"
